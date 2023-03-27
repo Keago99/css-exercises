@@ -1,4 +1,4 @@
-body:nth-child(odd){
+p{
     background-color: #ffa8b5;
     font-family: Verdana,sans-serif;
 }
