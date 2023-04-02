@@ -1,4 +1,9 @@
 
+.logo{
+  text-align: center;
+  align-items: center;
+  margin: auto;
+}
 
 
 .flex-container{
@@ -38,6 +43,8 @@ ul {
   list-style-type: none;
   justify-content: space-between;
   gap: 12px;
+  padding: 8px;
+  font-size: 36px;
 }
 
 a {
