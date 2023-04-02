@@ -2,6 +2,12 @@
 you'll learn about it later. */
 @import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
 
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
 body {
   display: flex;
   margin: 0;
@@ -40,6 +46,7 @@ button {
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
+  justify-content: end;
 }
 
 a {
