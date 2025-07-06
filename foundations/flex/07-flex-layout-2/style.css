@@ -39,8 +39,28 @@ body {
   box-sizing: border-box;
 }
 
+.cardContainer{
+  display: flex;
+  padding: 48px;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  padding: 16px;
+  width: 300px;
+}
+
+li{
+  list-style: none;
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+    font-size: 24px;
+    color: white;
 }
